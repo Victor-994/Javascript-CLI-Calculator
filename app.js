@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')({sigint: true});
+// const prompt = require('prompt-sync')({sigint: true});
 
 // take the operand input
 const numb1 = parseFloat(prompt('Enter first number: '));
@@ -22,4 +22,4 @@ else {
 }
 
 // display the result
-console.log(`${numb1} ${op} ${numb2} = ${result}`);
+alert(`${numb1} ${op} ${numb2} = ${result}`);
